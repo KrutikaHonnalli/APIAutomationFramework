@@ -1,0 +1,1 @@
+{"uuid":"99581bbe-80b1-49c5-a473-7b7f7bc87a2d","name":"Booking Test Suite","children":["6a3cc072-32be-4485-913e-24fdbc117a2e"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1735286885596,"stop":1735286886377}],"afters":[],"start":1735286885577,"stop":1735286889491}

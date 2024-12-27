@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="APIAutomationSuite" parallel="false">
+    <test name="APIAutomationTest">
+        <classes>
+            <!-- Execute testCreateToken class first -->
+            <class name="com.APIAutomationFramework.test.curd.testCreateToken" />
+            <!-- Execute testCreateBooking class next -->
+            <class name="com.APIAutomationFramework.test.curd.testCreateBooking" />
+            <!-- Execute testPingRequest class next -->
+            <class name="com.APIAutomationFramework.test.curd.testPingRequest" />
+            </classes>
+    </test>
+</suite>
