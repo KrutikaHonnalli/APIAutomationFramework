@@ -29,11 +29,4 @@ public class AssertAction
         assertThat(KeyExcept).isNotBlank();
         assertThat(KeyExcept).isEqualTo(KeyActual);
     }
-
-
-
-    public void verifyResponseBody(Integer actual, boolean expected)
-    {
-        assertEquals(actual,expected);
-    }
 }
